@@ -31,6 +31,9 @@ function App() {
             font-family: "Rubik", sans-serif;
             line-height: 1.25;
           }
+          * {
+            user-select: none;
+          }
         `}
       />
       <div css={cssWrapper}>
